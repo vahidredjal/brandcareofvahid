@@ -42,6 +42,10 @@ em {
   color: var(--gold);
 }
 
+em .dot-white {
+  color: var(--ink);
+}
+
 a {
   color: inherit;
   text-decoration: none;
