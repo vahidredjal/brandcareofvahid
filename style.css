@@ -668,6 +668,16 @@ section {
   font-weight: 500;
 }
 
+.case-story__body a {
+  color: var(--gold);
+  border-bottom: 1px solid var(--gold);
+}
+
+.case-story__body a:hover {
+  color: var(--ink);
+  border-bottom-color: var(--ink);
+}
+
 .case-stat {
   border-top: 1px solid var(--line);
   margin-top: 72px;
@@ -875,7 +885,7 @@ section {
 
 .ai-proof {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 32px;
   margin-top: 48px;
   border-top: 1px solid var(--line);
